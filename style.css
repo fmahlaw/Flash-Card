@@ -1,0 +1,30 @@
+#card-container {
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    position: relative;
+  }
+  
+  #card-front, #card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+    font-size: 24px;
+  }
+  
+  #card-back {
+    display: none;
+  }
+  
+  #response-container {
+    margin: 20px;
+  }
+  
+  #button-container {
+    margin: 20px;
+  }
+  
